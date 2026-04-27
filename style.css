@@ -1,7 +1,130 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <title> Simple layout </title>
-    </head>
-    <body>
+
+
+.TheBlocks{
+    justify-content: space-around;
+        gap:20px;
+        margin-top: 20px ;
+            flex-wrap: wrap;
+    display: flex;
+}
+.Twoblocks{
+    justify-content: space-around;
+        gap:20px;
+        margin-top: 20px ;
+            flex-wrap: wrap;
+    display: flex;
+}
+.navigationbar{
+        background-color:greenyellow;
+        border: 5px solid turquoise;
+        border-radius: 10%;
+        align-content: center;
+        text-align:right ;
+        display: flex;
+        margin-top: 5px;
+
+    }
+.OneCard{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 5px solid black;
+    gap: 10px;
+    border-radius: 10%;
+    background-color: plum;
+    grid-area: header;
+    height: 300px;
+    width: 250px;
+
+}
+.oneparagraph{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.TwoCard{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border: 5px solid black;
+    gap: 15px;
+    border-radius: 15%;
+    background-color: blueviolet;
+    grid-area: header;
+    height: 300px;
+    width: 250px;
+}
+.twoparagraph{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.ThreeCard{
+    display: flex;
+    flex: 3;
+    border: 5px solid black;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10%;
+    background-color: coral;
+    grid-area: header;
+    height: 300px;
+    width: 250px;
+}
+.threeparagraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+    
+.FourCard{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    gap: 15px;
+    border-radius: 15%;
+    border: 5px solid black;
+    background-color: cornflowerblue;
+    grid-area: header;
+    height: 300px;
+    width: 250px;
+}
+
+.fourparagraph{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+    
+.FiveCard{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    border: 5px solid black;
+    gap: 10px;
+    border-radius: 10%;
+    background-color: darkorange;
+    grid-area: header;
+    height: 300px;
+    width: 250px;
+}
+.fiveparagraph{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.SixCard{
+    height: 300px;
+    width: 300px;
+    height: 700px;
+    flex: 1;
+    border: 5px solid black;
+    border-radius: 10%;
+    float: right;
+    margin-left:20px ;
+    background-color: grey;
+    margin-top: 5px;
+}
+.sixparagraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font-display: block;
+}
     
